@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Bai1Activity">
+
+
+    <Button
+        android:id="@+id/btnLoation"
+
+        style="@style/TextNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Location" />
+
+    <TextView
+        android:id="@+id/tvLongtitude"
+        style="@style/TextNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:hint="Longitude" />
+
+    <TextView
+        android:id="@+id/tvLatitude"
+        style="@style/TextNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="Laitude" />
+
+    <TextView
+        android:id="@+id/tvcao"
+        style="@style/TextNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="Altitude" />
+</LinearLayout>
